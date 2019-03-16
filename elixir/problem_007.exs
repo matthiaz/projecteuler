@@ -16,7 +16,7 @@ defmodule Prime do
   end
 
   def is?(0), do: false
-  def is?(1), do: true
+  def is?(1), do: false
   def is?(2), do: true
   def is?(intNumber) when is_even(intNumber), do: false
   def is?(intNumber) do
